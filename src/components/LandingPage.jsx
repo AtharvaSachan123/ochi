@@ -9,7 +9,7 @@ const LandingPage = () => {
           return <div className='masker '>
             <div className='w-fit flex items-start  '>
               {index === 1 &&
-                (<div className=' mr-[1vw] w-[9vw] rounded-md h-[7vw] relative -top[1.2vw] flex flex-col justify-center'><img className='rounded-md' src={home} /></div>)}
+                (<div className=' mr-[1vw] w-[9vw] rounded-md h-[7vw] relative -top[1.2vw] flex flex-col justify-center'><img className='rounded-md' loading='eager' src={home} /></div>)}
 
               <h1 id='fontfam' key={index} className='mt-4  uppercase text-[9vw] leading-[6vw] tracking-tighter font-teko font-optical-sizing-auto font-semibold'>{item}
               </h1>
