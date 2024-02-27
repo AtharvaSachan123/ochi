@@ -15,7 +15,10 @@ const Navbar = () => {
         </div>
         <div className='links flex gap-10'>
             {["Services","Our Work","About Us","Insights","Contact"].map((item,index)=>(
-                <a key={index} className={`text-lg capitalize font-light ${index===4 && "ml-32"}`}>{item}</a>
+
+              
+                <a key={index} className={`text-lg capitalize font-light hover:scale-125 transform origin-bottom  transition-all duration-100 cursor-pointer   ${index===4 && "ml-32"}`}>{item}
+                </a>
             ))}
         </div>
     </div>
