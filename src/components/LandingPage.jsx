@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaArrowUpLong} from 'react-icons/fa6'
-
+import home from '../images/homeimage.jpg'
 const LandingPage = () => {
   return (
     <div className='w-full h-screen bg-zinc-900 pt-1'>
@@ -9,7 +9,7 @@ const LandingPage = () => {
           return <div className='masker '>
             <div className='w-fit flex items-start  '>
               {index === 1 &&
-                (<div className=' mr-[1vw] w-[9vw] rounded-md h-[5.4vw] relative -top[1.2vw] bg-green-500'></div>)}
+                (<div className=' mr-[1vw] w-[9vw] rounded-md h-[7vw] relative -top[1.2vw]'><img className='rounded-md' src={home}/></div>)}
 
               <h1 key={index} className='mt-4 uppercase text-[9vw] leading-[6vw] tracking-tighter  font-["Founders_Grotesk"] font-bold '>{item}
               </h1>
