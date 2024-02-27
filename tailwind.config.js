@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-       fontFamily: {
-      sans: ["Founders_Grotesk", "sans-serif"], 
-    },},
+      fontFamily: {
+        'teko': ['Teko', 'sans-serif'],
+      },},
   },
   plugins: [],
 }
