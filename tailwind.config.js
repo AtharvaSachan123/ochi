@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'teko': ['Teko', 'sans-serif'],
+        'geko':["Quicksand", 'sans-serif'],
       },},
   },
   plugins: [],

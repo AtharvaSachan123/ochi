@@ -3,9 +3,9 @@ import { FaArrowUpLong } from 'react-icons/fa6'
 import home from '../images/homeimage.jpg'
 const LandingPage = () => {
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
+    <div className='w-full h-screen  pt-1'>
       <div className='textstructure mt-40 px-20'>
-        {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
+        {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return <div className='masker '>
             <div className='w-fit flex items-start  '>
               {index === 1 &&
