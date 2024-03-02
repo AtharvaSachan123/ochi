@@ -6,17 +6,19 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Feature from './components/Feature'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div className='w-full h-screen '>
-      <Navbar/>
-      <LandingPage/>
-      <Marquee/>
-      <About/>
-      <Eyes/>
-      <Feature/>
-      <Cards/>
+      <Navbar />
+      <LandingPage />
+      <Marquee />
+      <About />
+      <Eyes />
+      <Feature />
+      <Cards />
+      <Footer />
     </div>
   )
 }
