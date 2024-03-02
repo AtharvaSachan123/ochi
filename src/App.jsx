@@ -16,7 +16,7 @@ const App = () => {
       <About/>
       <Eyes/>
       <Feature/>
-      
+      <Cards/>
     </div>
   )
 }
